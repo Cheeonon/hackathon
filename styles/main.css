@@ -1,0 +1,82 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background: url(../assets/rain.gif) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.app {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.app__title {
+  font-size: 3rem;
+  color: white;
+}
+.app__input {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 1rem;
+  border-bottom: white 2px solid;
+}
+.app__input::-moz-placeholder {
+  color: white;
+}
+.app__input:-ms-input-placeholder {
+  color: white;
+}
+.app__input::placeholder {
+  color: white;
+}
+.app__btn {
+  border: none;
+  border-bottom: white 2px solid;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.weather {
+  width: 25%;
+  height: 60vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.weather__city {
+  color: rgb(116, 134, 140);
+  font-size: 1.4rem;
+}
+.weather__temp {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.weather__icon {
+  height: 30%;
+}/*# sourceMappingURL=main.css.map */
